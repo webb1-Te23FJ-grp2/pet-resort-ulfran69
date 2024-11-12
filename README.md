@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/0S0esN5f)
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=17081612)
-# Pet Resort - DITT NAMN
-Börja med att byta ut DITT NAMN mot ditt namn och radera sedan denna rad. 
+# Pet Resort - Ulf Räntilä
+
 
 Uppgiften bygger på att **återskapa layouten till sajten Pet Resort**. Det är alltså en liknande övning som Nails var tidigare, fast nu med flex och grid. Du väljer själv vilken teknik du vill använda, men för att lösa uppgiften behöver du använda någon av dem.
 

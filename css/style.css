@@ -1,0 +1,14 @@
+body{
+    background-color: grey;
+    min-width: 1200px;
+}
+.intro1{
+    display: flex;
+    justify-content: flex-start ;
+    
+}
+.intro2{
+    display: flex;
+    justify-content: flex-end;
+    /* font-weight: bold; */
+}
