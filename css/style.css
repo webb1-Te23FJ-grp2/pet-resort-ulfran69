@@ -10,7 +10,6 @@ body{
 }
 .container{
     display: flex;
-    /* justify-content: center; */
     justify-content: space-between;
 }
 .intro1 {
@@ -47,6 +46,7 @@ img{
     justify-content: end;
     flex-direction: column;
     font-size: large;
+    margin-bottom: 20px;
 }
 .dog-img h2{
     padding-left: 10px;
@@ -58,13 +58,14 @@ img{
     display: flex;
     background-color: white;
     border-radius: 20px;
-    /* max-height: 300px; */
-    margin: 40px;
     grid-area: og;
+    padding: 20px 20px 0 20px;
 }
 .og img{
     border-radius: 20px;
-
+}
+.og-txt{
+    padding-left: 20px;
 }
 .partners{
     background-color: white;
@@ -73,7 +74,7 @@ img{
     flex-direction: column;
     border-radius: 20px;
     grid-area: partners;
-    /* max-width: 250px; */
+    padding: 20px;
 }
 .partners p{
     margin: 0 10px;
@@ -84,18 +85,25 @@ img{
 .listing{
     background-color: white;
     border-radius: 20px;
-    margin: 20px;
-    /* height: 300px;
-    width: 200px; */
+    padding: 20px;
 }
 .merch{
     grid-area: merch;
 }
+.merch img{
+    border-radius: 20px;
+}
 .buddies{
     grid-area: buddies;
 }
+.buddies img{
+    border-radius: 20px;
+}
 .fined{
     grid-area: fined;
+}
+.fined img {
+    border-radius: 20px;
 }
 .cards{
     display: grid;
@@ -103,4 +111,5 @@ img{
     grid-template-areas: 
     "og og og partners"
     "merch buddies fined partners";
+    gap: 20px;
 }
